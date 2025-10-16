@@ -30,5 +30,13 @@ public class EVA2_14_CAPTURA {
      for(int i = 0; i < califas.length; i++){
         System.out.println("[" + califas[i] + "]");
      }
+     int suma = 0;
+        //summar todas las calificaciones
+     for(int i = 0; i < califas.length; i++){
+        suma = suma + califas[i]; // suma += califas[i;
+     }
+     double promedio = suma / (double)tama;//dividimos enteros
+        System.out.println("Promedio = " + promedio);
+     }
 }
-}
+
