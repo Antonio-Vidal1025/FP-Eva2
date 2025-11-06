@@ -36,22 +36,8 @@ public class EVA2_10_FOR {
         //que el usuario quiera
         //Ejemplo: -15 y 5 --> -15 -14 -13... 0 1 2 3 4 5
          Scanner input = new Scanner(System.in);
-
-        System.out.println("Ingresa el primer valor:");
-        int valor1 = input.nextInt();
-
-        System.out.println("Ingresa el segundo valor:");
-        int valor2 = input.nextInt();
-
-        if (valor1 <= valor2) {
-            for (int i = valor1; i <= valor2; i++) {
-                System.out.print(i + " ");
-            }
-        } else {
-            for (int i = valor1; i >= valor2; i--) {
-                System.out.print(i + " ");
-            }
-        }       
+int ini, fin;
+System.out.println("Inicio")
  
         
         //IMPRIMIR EN ORDEN INVERSO 
